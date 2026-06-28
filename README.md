@@ -93,11 +93,11 @@ and preserve the `NOTICE`.
 
 ## Links
 
-- **Paper (arXiv):** _link added after posting_ — `arXiv:XXXX.XXXXX`
-- **Code (GitHub):** `https://github.com/<your-username>/review-residuals`
-- **Data + artifacts (Hugging Face):** `https://huggingface.co/datasets/<your-username>/review-residuals`
+- **Paper (arXiv):** _added after posting_ — `arXiv:XXXX.XXXXX`
+- **Code (GitHub):** https://github.com/SixSigmaEngineer/review-residuals
+- **Data + artifacts (Hugging Face):** `https://huggingface.co/datasets/<your-hf-username>/review-residuals`
 
-> Replace the `<your-username>` / `arXiv:XXXX.XXXXX` placeholders once the repos and preprint are live.
+> Replace the Hugging Face `<your-hf-username>` and the `arXiv:XXXX.XXXXX` placeholders once those are live.
 
 ---
 Kyle Kramer · NeraTech LLC · 2026
