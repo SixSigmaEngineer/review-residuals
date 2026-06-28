@@ -1,0 +1,16 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+# Python
+__pycache__/
+*.pyc
+# Local archive (superseded drafts/figures) — remove this line to publish Old/ too
+Old/
+# Personal workflow files (not part of the public artifact)
+arXiv Submission/
+review_residuals_arxiv.zip
+push_to_github.cmd
+PUBLISH_INSTRUCTIONS.md
+HF_README.md

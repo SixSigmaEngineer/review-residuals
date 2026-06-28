@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Review Residuals: Update-Conditioned Residual Gating for Transformers"
+abstract: "An identity-preserving residual gate conditioned on both the current state and the proposed update. Trained from scratch across 60M-1B parameters with parameter-matched baselines, its advantage over both a Highway gate and the standard residual emerges with scale."
+type: software
+authors:
+  - family-names: Kramer
+    given-names: Kyle
+    affiliation: "NeraTech LLC"
+year: 2026
+version: "1.0.0"
+license: Apache-2.0
+keywords:
+  - transformers
+  - residual connections
+  - scaling laws
+  - language modeling
+  - reliability
+repository-code: "https://github.com/<your-username>/review-residuals"
