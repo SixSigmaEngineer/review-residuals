@@ -14,3 +14,5 @@ review_residuals_arxiv.zip
 push_to_github.cmd
 PUBLISH_INSTRUCTIONS.md
 HF_README.md
+first_push_force.cmd
+push_to_huggingface.cmd

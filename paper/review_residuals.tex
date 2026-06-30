@@ -12,13 +12,16 @@
 \captionsetup{font=small,labelfont=bf}
 \newcolumntype{C}{>{\centering\arraybackslash}p{2.3cm}}
 
-\title{\textbf{Review Residuals: Update-Conditioned Residual Gating\\ for Transformers}}
+\title{\textbf{Review Residuals: Update-Conditioned\\ Residual Gating for Transformers}}
 \author[ ]{Kyle Kramer}
 \affil[ ]{NeraTech LLC}
-\date{June 2026}
+\date{\vspace{-0.6em}June 2026}
 
 \begin{document}
 \maketitle
+\vspace{-1.4em}
+\begin{center}\small\raisebox{-1.5pt}{\includegraphics[height=8pt]{github_mark.png}}\;\url{https://github.com/SixSigmaEngineer/review-residuals}\end{center}
+\vspace{-0.9em}
 
 \begin{abstract}
 \noindent
@@ -206,6 +209,7 @@ residuals at $\le 1$B---small in absolute magnitude today, growing with scale, a
 seeds---while being explicit that frontier-scale confirmation remains future work.
 
 \section{Discussion}
+\enlargethispage{\baselineskip}
 \paragraph{A local operation that scales simply.} Review Residuals read only the current layer's state and its
 own proposed update; they add no cross-layer or cross-pipeline-stage communication, so unlike depth-aggregation
 methods they require no special distributed-training infrastructure. The gate adds ${\sim}7\%$ parameters and a

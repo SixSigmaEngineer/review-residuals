@@ -1,5 +1,7 @@
 # Review Residuals
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21053343.svg)](https://doi.org/10.5281/zenodo.21053343)
+
 **An update-conditioned residual gate whose advantage emerges at scale.**
 
 Review Residuals scale each transformer sublayer's proposed update by a small learned gate conditioned on
@@ -78,10 +80,12 @@ caveat is the absolute size at ≤1B, not the direction, which points upward.
 
 ```bibtex
 @misc{kramer2026reviewresiduals,
-  title  = {Review Residuals: Update-Conditioned Residual Gating for Transformers},
-  author = {Kramer, Kyle},
-  year   = {2026},
-  note   = {NeraTech LLC}
+  title     = {Review Residuals: Update-Conditioned Residual Gating for Transformers},
+  author    = {Kramer, Kyle},
+  year      = {2026},
+  doi       = {10.5281/zenodo.21053343},
+  publisher = {Zenodo},
+  note      = {NeraTech LLC}
 }
 ```
 
@@ -93,11 +97,9 @@ and preserve the `NOTICE`.
 
 ## Links
 
-- **Paper (arXiv):** _added after posting_ — `arXiv:XXXX.XXXXX`
+- **Paper (Zenodo, DOI):** https://doi.org/10.5281/zenodo.21053343
 - **Code (GitHub):** https://github.com/SixSigmaEngineer/review-residuals
-- **Data + artifacts (Hugging Face):** `https://huggingface.co/datasets/<your-hf-username>/review-residuals`
-
-> Replace the Hugging Face `<your-hf-username>` and the `arXiv:XXXX.XXXXX` placeholders once those are live.
+- **Paper (arXiv):** _pending endorsement_
 
 ---
 Kyle Kramer · NeraTech LLC · 2026
