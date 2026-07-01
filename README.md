@@ -1,6 +1,7 @@
 # Review Residuals
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21053343.svg)](https://doi.org/10.5281/zenodo.21053343)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.31859-b31b1b.svg)](https://arxiv.org/abs/2606.31859)
 
 **An update-conditioned residual gate whose advantage emerges at scale.**
 
@@ -80,12 +81,14 @@ caveat is the absolute size at ≤1B, not the direction, which points upward.
 
 ```bibtex
 @misc{kramer2026reviewresiduals,
-  title     = {Review Residuals: Update-Conditioned Residual Gating for Transformers},
-  author    = {Kramer, Kyle},
-  year      = {2026},
-  doi       = {10.5281/zenodo.21053343},
-  publisher = {Zenodo},
-  note      = {NeraTech LLC}
+  title         = {Review Residuals: Update-Conditioned Residual Gating for Transformers},
+  author        = {Kramer, Kyle},
+  year          = {2026},
+  eprint        = {2606.31859},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  doi           = {10.5281/zenodo.21053343},
+  note          = {NeraTech LLC}
 }
 ```
 
@@ -99,7 +102,7 @@ and preserve the `NOTICE`.
 
 - **Paper (Zenodo, DOI):** https://doi.org/10.5281/zenodo.21053343
 - **Code (GitHub):** https://github.com/SixSigmaEngineer/review-residuals
-- **Paper (arXiv):** _pending endorsement_
+- **Paper (arXiv):** https://arxiv.org/abs/2606.31859  (`arXiv:2606.31859`)
 
 ---
 Kyle Kramer · NeraTech LLC · 2026

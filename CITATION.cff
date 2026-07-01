@@ -18,3 +18,7 @@ keywords:
   - reliability
 repository-code: "https://github.com/SixSigmaEngineer/review-residuals"
 doi: "10.5281/zenodo.21053343"
+identifiers:
+  - type: other
+    value: "arXiv:2606.31859"
+    description: "arXiv preprint"
